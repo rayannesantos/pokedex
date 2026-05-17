@@ -1,0 +1,40 @@
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.filter-label {
+  font-family: var(--font-input);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-dark, #1E1E1E);
+}
+
+.type-select {
+  height: 48px; 
+  width: 100%;
+  padding: 0 16px;
+  padding-right: 36px;
+  background-color: transparent; 
+  border: 1px solid var(--text-muted, #ccc); 
+  border-radius: 24px; 
+  font-family: var(--font-input);
+  font-size: 1rem; 
+  color: var(--text-dark, #1E1E1E);
+  cursor: pointer;
+  outline: none;
+  transition: all var(--transition-fast);
+  appearance: none; 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg width="10" height="6" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1.5L6 6.5L11 1.5" stroke="%2349454F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+}
+
+.type-select:hover,
+.type-select:focus {
+  background-color: var(--bg-search, #F2F2F7);
+  border-color: var(--text-dark, #1E1E1E);
+}

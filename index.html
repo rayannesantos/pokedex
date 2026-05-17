@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/pokebola.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Pokédex </title>
+  </head>
+  <body>
+    <!-- tela de carregamento enquanto a página baixa os arquivos -->
+    <div id="splash-screen" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: #FFFFFF; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 9999; transition: opacity 0.5s ease;">
+      <img src="/images/logo.svg" alt="Pokédex Loading" style="width: 150px; margin-bottom: 24px; animation: pulse 1.5s infinite;" />
+      <div style="width: 40px; height: 40px; border: 4px solid #F2F2F7; border-top-color: #212E4C; border-radius: 50%; animation: spin 1s linear infinite;"></div>
+      
+      <style>
+        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes pulse { 50% { opacity: 0.5; } }
+      </style>
+    </div>
+
+    <!-- início da página -->
+
+    <header class="main-header">
+      <div class="header-content">
+        <a href="/" class="logo" aria-label="Página Inicial">
+          <img src="/images/logo.svg" alt="Logo Pokédex" />
+        </a>
+        <nav>
+          <a href="#" class="active">Home</a>
+          <a href="#">Pokédex</a>
+        </nav>
+      </div>
+    </header>
+
+    <section id="search-container"></section>
+
+    <main id="app">
+      <div id="pokemon-grid" class="grid-container"></div>
+      <div id="pagination-container"></div> 
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
