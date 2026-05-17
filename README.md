@@ -53,18 +53,17 @@ npm run build
 npm run preview
 ```
 
-## Estrutura do projeto (principal)
-- [pokedex/index.html](pokedex/index.html)
-- [pokedex/src/main.js](pokedex/src/main.js)
-- [pokedex/src/api/pokemonService.js](pokedex/src/api/pokemonService.js)
-- [pokedex/src/components/pokemonList.js](pokedex/src/components/pokemonList.js)
-- [pokedex/src/components/pokemonCard.js](pokedex/src/components/pokemonCard.js)
-- [pokedex/src/components/searchBar.js](pokedex/src/components/searchBar.js)
-- [pokedex/src/components/feedbackStates.js](pokedex/src/components/feedbackStates.js)
-- [pokedex/src/components/typeFilter.js](pokedex/src/components/typerFilter.js)
-- [pokedex/src/components/sidebar.js](pokedex/src/components/sidebar.js)
--  [pokedex/src/components/pagination.js](pokedex/src/components/pagination.js)
-- [pokedex/src/state/store.js](pokedex/src/state/store.js)
+## Estrutura do projeto
+
+```bash
+src/
+├── api/         # comunicação com a PokéAPI
+├── components/  # componentes reutilizáveis da interface
+├── state/       # gerenciamento de estado da aplicação
+├── styles/      # arquivos de estilização
+├── utils/       # funções auxiliares e utilitárias
+└── main.js      # inicialização da aplicação
+```
 
 ## Scripts úteis
 - `npm run dev` — inicia servidor de desenvolvimento (Vite)
