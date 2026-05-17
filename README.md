@@ -63,7 +63,7 @@ npm run preview
 - [pokedex/src/components/feedbackStates.js](pokedex/src/components/feedbackStates.js)
 - [pokedex/src/components/typeFilter.js](pokedex/src/components/typerFilter.js)
 - [pokedex/src/components/sidebar.js](pokedex/src/components/sidebar.js)
--  [pokedex/src/components/paginarion.js](pokedex/src/components/pagination.js)
+-  [pokedex/src/components/pagination.js](pokedex/src/components/pagination.js)
 - [pokedex/src/state/store.js](pokedex/src/state/store.js)
 
 ## Scripts úteis
