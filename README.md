@@ -60,8 +60,11 @@ npm run preview
 - [pokedex/src/components/pokemonList.js](pokedex/src/components/pokemonList.js)
 - [pokedex/src/components/pokemonCard.js](pokedex/src/components/pokemonCard.js)
 - [pokedex/src/components/searchBar.js](pokedex/src/components/searchBar.js)
+- [pokedex/src/components/feedbackStates.js](pokedex/src/components/feedbackStates.js)
+- [pokedex/src/components/typeFilter.js](pokedex/src/components/typerFilter.js)
+- [pokedex/src/components/sidebar.js](pokedex/src/components/sidebar.js)
+-  [pokedex/src/components/paginarion.js](pokedex/src/components/pagination.js)
 - [pokedex/src/state/store.js](pokedex/src/state/store.js)
-- [pokedex/src/styles/](pokedex/src/styles/)
 
 ## Scripts úteis
 - `npm run dev` — inicia servidor de desenvolvimento (Vite)
